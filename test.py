@@ -18,6 +18,3 @@ class TestGrouper(unittest.TestCase):
         expected = get_grouped_by_multiple_keys()
 
         self.assertEqual(expected, result)
-
-# if __name__ == '__main__':
-#     unittest.main()
